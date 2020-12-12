@@ -4,7 +4,6 @@ If you're a web developer who uses a lot of Javascript, and want to make a deskt
 
 With [Electron](https://www.electronjs.org/), you can build cross-platform applications with Javascript, HTML, and CSS.
 
-The code for the following can be found in
 %[https://github.com/kavin25/my-electron-app]
 
 ## Install Electron
