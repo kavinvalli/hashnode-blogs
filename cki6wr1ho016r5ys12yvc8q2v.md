@@ -17,11 +17,11 @@ If you have <span id="rmm"><span id="rmm"></span></span> come so far, in this bl
 
 
 ```
-mkdir django_medium && cd django_medium
+mkdir livecode247 && cd livecode247
 ```
 
 
-Once you have done that, you will be inside, the **django_medium** directory
+Once you have done that, you will be inside, the **livecode247** directory
 Now, run:
 
 
@@ -42,7 +42,7 @@ virtualenv myenv --python=python3
 
 This would:
 1\. Install virtualenv on your device
-2\. Create a vitualenv in the current directory, i.e. django_medium
+2\. Create a vitualenv in the current directory, i.e. livecode247
 
 Now, we need to activate this environment
 
@@ -64,7 +64,7 @@ Now, we will start a django project. To start a django project, run:
 
 
 ```
-django-admin startproject django_medium .
+django-admin startproject livecode247 .
 ```
 
 
