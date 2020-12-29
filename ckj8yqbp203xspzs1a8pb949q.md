@@ -144,4 +144,4 @@ So, now if we go to http://127.0.0.1:8000/blogs you should see this
 
 ![Screenshot 2020-12-29 at 1.05.22 AM.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1609184125448/vfrfrVlv4.jpeg)
 
-That's it for this episode! In the next one we are going to talk about how to use templates (html, css) to render content on the site. Till then, stay tuned!
+That's it for this episode! In the next one we are going to talk about how to use models and setup our sqlite database! Till then, Stay Tuned!
