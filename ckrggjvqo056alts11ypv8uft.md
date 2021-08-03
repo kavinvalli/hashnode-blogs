@@ -1,13 +1,13 @@
 ## A Discord bot for task management!
 
-A few days back, I created a Discord Bot solely for task management called `Tick Me`! A minimal bot with only what's required without any of those confusing functionalities. Just add, assign(if needed) and tick off.
+A few days back, I created a Discord Bot solely for task management! A minimal bot with only what's required without any of those confusing functionalities. Just add, assign(if needed) and tick off.
 
 ## How to use it in your server?
 The bot is published on top.gg and you can find it at https://url.kavin.me/discord-task-bot. Just click on the invite button and follow the steps.
 ![Screenshot 2021-07-23 at 8.03.38 PM.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1627050822851/OSlJRMFxw.png)
 
 ## Prefix
-Like most discord bots, the `Tick Me` bot has a prefix, `t!`.
+Like most discord bots, the `Task Manager` bot has a prefix, `t!`.
 
 ## Add a task
 You can add a task by typing `t!add <task>`. You can also `assign` someone a task by mentioning them in the `t!add` command.
@@ -49,4 +49,4 @@ That's it. And that's mostly everything you need in a task manager.
 ## Code
 The code for the bot can be found at the following Github Repo. You're welcome to create any issues or contribute by creating a PR.
 
-%[https://github.com/kavin25/discord-task-bot]
+%[https://github.com/Task-Manager-Bot/discord-task-bot]
