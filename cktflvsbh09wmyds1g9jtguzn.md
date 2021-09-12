@@ -1,4 +1,4 @@
-## My attempt at creating a unique portfolio website!
+## My attempt at creating a unique portfolio website! Hint: Terminal
 
 I created my portfolio website a few months ago and tried to make it as unique as possible and came up with the idea of a terminal based website. You can find it [here](https://kavin.me)
 It takes in a command (you can list all commands you can use by typing `help` and then typing the command) and displays an output much like a proper terminal.
