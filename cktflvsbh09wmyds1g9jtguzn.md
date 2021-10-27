@@ -4,6 +4,8 @@ I created my portfolio website a few months ago and tried to make it as unique a
 It takes in a command (you can list all commands you can use by typing `help` and then typing the command) and displays an output much like a proper terminal.
 I used HTML, CSS, and Vanilla Javascript which I regret sometimes because of how hard it is to maintain now. I might add Parcel later to make it easier to bundle the code. But for now it's how it is and you can find the code in the Github Embed below!
 
+> Update (26/10/2021): The website is now made using NextJS
+
 %[https://github.com/kavinvalli/kavinvalli.github.io]
 
 Oh, there is also a normal mode on the website if you don't want to use the terminal mode.
