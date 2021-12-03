@@ -2,6 +2,8 @@
 
 I went ahead and created a Github CLI extension which fuzzy finds repos and you can choose an action you want to run on it.
 
+![gh-repo-fzf.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1638547640775/1TnE4fnycI.gif)
+
 ### Requirements
 1. `gh cli` - minimum version (2.0.0)
 2. `fzf`
