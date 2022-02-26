@@ -5,7 +5,7 @@ A few days back, I created a Discord Bot solely for task management! A minimal b
 You can get to know more at the [Website](https://task-manager-bot.github.io)
 
 ## How to use it in your server?
-The bot is published on top.gg and you can find it at https://kvnv.xyz/discord-task-bot. Just click on the invite button and follow the steps.
+The bot is published on top.gg and you can find it at https://kvnv.xyz/dtb. Just click on the invite button and follow the steps.
 ![Screenshot 2021-07-23 at 8.03.38 PM.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1627050822851/OSlJRMFxw.png)
 
 ## Prefix
