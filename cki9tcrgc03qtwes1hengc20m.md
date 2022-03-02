@@ -1,7 +1,5 @@
 ## 7 Must have Visual Studio Code extensions for all programmers
 
-<span class="s"></span>
-
 Visual Studio Code is one of the most used IDE’s out there and is used extensively by many programmers
 If you haven’t used Visual Studio Code yet, I highly recommend you to install it and try it out with the following extensions.
 [Download **Visual Studio Code**](https://code.visualstudio.com/Download)
