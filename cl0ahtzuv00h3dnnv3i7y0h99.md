@@ -29,6 +29,7 @@ code .
 ```
 
 - Now inside index.js add the following
+
 ```js
 const express = require('express');
 const app = express();
@@ -42,6 +43,7 @@ app.listen(port, () => {
    console.log(`App is running at port: ${port}`);
 })
 ```
+
 ### Explanation of code
 - *Line 1:* In line 1, we are just importing the express package for running the server
 - *Line 2:* We are making an app, by instantiating the express module
@@ -88,4 +90,4 @@ npm start
 ```
 
 - Now, go to localhost:3000
-- Try changing the response while getting / in the index.js and after you save it, the browser should auto-reload to show you the new response
+- Try changing the response while getting / in the index.js and after you save it, the server should auto-reload. Now go to the browser and refresh again. You should see the new response
