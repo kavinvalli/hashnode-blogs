@@ -51,9 +51,9 @@ const express = require("express")
 ```
 If you've used Node.JS before, this should look familiar. This line basically imports the express package.
 Now, to use express, you need to instantiate the imported function. So:
-```js
+```diff
 const express = require("express")
-const app = express() // add this line
++const app = express()
 ```
 Now, you can use the app variable to start the server like so:
 ```js
