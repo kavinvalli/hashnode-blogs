@@ -72,15 +72,11 @@ npm install nodemon --save-dev
 ```
 - We are adding `--save-dev` because we want this only in development and not while publishing it.
 
-- Now, go to `package.json` file and remove the following line:
+- Now, go to `package.json` file and edit the following line:
 
-```js
-"test": "echo \"Error: no test specified\" && exit 1"
-```
-**And add the following line**
-
-```js
-"start":"nodemon index.js"
+```diff
+- "test": "echo \"Error: no test specified\" && exit 1"
++ "start":"nodemon index.js"
 ```
 
 - So, what we are doing is that we are making nodemon run the server instead of node.
@@ -89,5 +85,5 @@ npm install nodemon --save-dev
 npm start
 ```
 
-- Now, go to localhost:3000
-- Try changing the response while getting / in the index.js and after you save it, the server should auto-reload. Now go to the browser and refresh again. You should see the new response
+- Now, go to http://localhost:3000
+- Try changing the response while getting / in the `index.js` and after you save it, the server should auto-reload. Now go to the browser and refresh again. You should see the new response
