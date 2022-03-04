@@ -11,6 +11,8 @@ Code Diffs was something I wanted to use for a while in Hashnode but I didn't kn
 +   console.log(`🚀 Server started on port ${port}`);
 + });
 ```
+> End the above block of code with ```. Seems to break my article if I add it there 🤔
+
 > This example is from on of my [articles](https://livecode247.com/start-a-web-server-with-nodejs-and-express)
 
 So, the way this works is, hashnode uses a plugin called [highlight.js](https://highlightjs.org/) to convert the codeblocks. Highlight.js already has this feature implemented.
