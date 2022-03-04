@@ -53,7 +53,7 @@ If you've used Node.JS before, this should look familiar. This line basically im
 Now, to use express, you need to instantiate the imported function. So:
 ```diff
 const express = require("express")
-+const app = express()
++ const app = express()
 ```
 Now, you can use the app variable to start the server like so:
 ```js
@@ -100,18 +100,18 @@ Now, refresh the page on the browser and you should see this:
 For the final step, you can refactor the port number like this
 ```diff
 const port = process.env.PORT || 3000;
--app.listen(3000, () => {
--    console.log(`🚀 Server started on port 3000`)
--}
-+app.listen(port, () => {
-+  console.log(`🚀 Server started on port ${port}`);
-+});
+- app.listen(3000, () => {
+-   console.log(`🚀 Server started on port 3000`)
+- }
++ app.listen(port, () => {
++   console.log(`🚀 Server started on port ${port}`);
++ });
 ```
 `process.env.PORT` returns the PORT environment variable which is set in many hosting providers so it is a good practice to use that instead of hardcoding a port. We're saying that if it doesn't exist, use port 3000.
 
 ## Final Code
 Your final code in `index.js` should look like this:
-```diff
+```js
 const express = require("express");
 const app = express();
 
