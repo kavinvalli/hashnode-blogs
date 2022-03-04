@@ -99,7 +99,7 @@ Now, refresh the page on the browser and you should see this:
 
 For the final step, you can refactor the port number like this
 ```diff
-const port = process.env.PORT || 3000;
++ const port = process.env.PORT || 3000;
 - app.listen(3000, () => {
 -   console.log(`🚀 Server started on port 3000`)
 - }
