@@ -63,13 +63,10 @@ Now, go to the style.css file inside your src folder and add the following:
 ```
 These are just some basic tailwind css you need to import to get started.
 
-Now, in you package.json file and **remove** the following line:
-```json
-"test": "echo \"Error: no test specified\" && exit 1"
-```
-And **add** the following in place of it
-```json
-"build-css": "tailwindcss build src/styles.css -o public/styles.css"
+Now, in you package.json file and edit the following line:
+```diff
+- "test": "echo \"Error: no test specified\" && exit 1"
++ "build-css": "tailwindcss build src/styles.css -o public/styles.css"
 ```
 Now, run the following in the terminal
 ```sh
