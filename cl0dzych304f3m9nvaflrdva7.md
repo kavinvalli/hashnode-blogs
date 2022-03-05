@@ -7,7 +7,7 @@ Here's my experience of using Remix till now.
 Well, let me start with what Remix is. If you've used ReactJS before, you'd most probably have come across [React Router](https://reactrouterdotcom.fly.dev/docs/en/v6). Around a couple years ago, the founders of React Router decided to create a React framework on top of React Router. It originally needed a license, but last year, they decided to go open source! So now, it is something anyone can access.
 
 ## More about Remix?
-I started following @[Kent C. Dodds](@kentcdodds), who is a part of the remix team, and he has a lot of livestreams where he talks about remix, and has a couple videos which really pushed me to try out remix. I highly recommend subscribing to his [Youtube Channel](https://www.youtube.com/c/KentCDodds-vids) and he has an amazing [Website](https://kentcdodds.com) also built using remix. It's amazing if you go through it, and you can find a really good video on it by Kent [here](https://youtu.be/owOZMwNPAyc).
+I started following @[Kent C. Dodds](@kentcdodds), who is a part of the remix team, and he has a lot of livestreams where he talks about remix, and has a couple videos which really pushed me to try out remix. I highly recommend subscribing to his [Youtube Channel](https://www.youtube.com/c/KentCDodds-vids) and he has an amazing [Website](https://kentcdodds.com) also built using remix. You'll learn about some very cool stuff if you go through it, and you can find a really good video on it by Kent [here](https://youtu.be/owOZMwNPAyc).
 
 ## About the Link shortener
 I decided to try Remix out by creating a Link shortener, because that was something simple yet I could experiment with concepts like authentication, data fetching and all that fancy stuff.
