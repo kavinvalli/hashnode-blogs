@@ -15,8 +15,8 @@ You can find the code [here](https://github.com/kavinvalli/remix-url-shortener).
 First, I went through the [tutorials](https://remix.run/docs/en/v1/tutorials/blog) on Remix's docs which is a really good resource on starting with remix.
 
 ### Authentication
-Then, I started off and decided to use Github for authentication. Now, I didn't want to implement Github OAuth by myself and didn't want to go through the work of having to manage tokens in the app, so I decided to use [Remix Auth](https://github.com/sergiodxa/remix-auth). It works really really well with Remix and has [support](https://github.com/sergiodxa/remix-auth/discussions/111) for a lot of strategies).
-It took me a little while to get started with it cause, it doesn't really have good docs at the time but the examples were helpful. Now, the docs have improved a lot and you should be good to go pretty soon.
+Then, I started off and decided to use Github for authentication. Now, I didn't want to implement Github OAuth by myself and didn't want to go through the work of having to manage tokens in the app, so I decided to use [Remix Auth](https://github.com/sergiodxa/remix-auth). It works really really well with Remix and has [support](https://github.com/sergiodxa/remix-auth/discussions/111) for a lot of strategies.
+It took me a little while to get started with it cause, it didn't really have good docs at the time but the examples were helpful. Now, the docs have improved a lot and you should be good to go pretty soon.
 
 ### Core Concepts
 The Jokes tutorial covered most of the concepts I needed to build the url shortener. So, it didn't take me too long to complete the app. All the concepts, including db interaction, data fetching, form validation and submission was already stuff I'd read about in the tutorial so I would recommend going through that to get started with Remix.
