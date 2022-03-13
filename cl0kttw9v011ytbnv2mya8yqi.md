@@ -1,4 +1,4 @@
-## React Hooks: useState
+## Beginner's guide to useState hook in React
 
 A key component of a web application is the **state**. Taken directly from the beta(new) version of the ReactJS Docs:
 > Think of state as the minimal set of changing data that your app needs to remember. For example, if you’re building a shopping list, you can store the items as an array in state.
