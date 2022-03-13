@@ -73,7 +73,7 @@ What if you want to run it only when the component mounts for the first time (li
 ```
 You're passing in an empty array of dependencies. This basically means, run the useEffect loop only on first render.
 
-> There is however still one difference between this and `componentDidMount`. `useEffect` runs after the first render to the DOM whereas `componentDidMount` runs after "mounting" the component but before it is actually rendered(shown) in the DOM.
+> There is however still one difference between this and `componentDidMount`. `useEffect(fn, [])` runs after the first render to the DOM whereas `componentDidMount` runs after "mounting" the component but before it is actually rendered(shown) in the DOM.
 
 ### Run depending on a value
 What if you want to run useEffect when a certain value changes. For eg. add this
