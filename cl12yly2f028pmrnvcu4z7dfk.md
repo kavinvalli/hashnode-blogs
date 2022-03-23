@@ -284,3 +284,6 @@ Now your html should look like this:
 and the site like this:
 
 ![Final Dark Mode](https://cdn.hashnode.com/res/hashnode/image/upload/v1648002949928/aAvyYUX3F.png)
+The repository below has all the code used in this article
+
+%[https://github.com/kavinvalli/dark-mode-tailwindcss]
