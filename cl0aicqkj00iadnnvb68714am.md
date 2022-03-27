@@ -137,12 +137,12 @@ Now, refresh the page on the browser and you should see this:
 
 ![Screenshot 2022-03-03 at 10.08.38.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1646282325271/94UDlGOUg.png)
 
+For the final step, you can refactor the port number like this
 
 <div class="code-metadata">
 index.js
 </div>
 
-For the final step, you can refactor the port number like this
 ```diff
 + const port = process.env.PORT || 3000;
 - app.listen(3000, () => {
