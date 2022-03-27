@@ -85,6 +85,10 @@ npm run css:watch
 ```
 
 ## Setup html
+<div class="code-metadata">
+index.html
+</div>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
