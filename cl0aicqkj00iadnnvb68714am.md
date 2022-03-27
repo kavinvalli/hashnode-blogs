@@ -10,6 +10,11 @@ Getting started with Node.JS and Express is very easy.
 
 ## Creating a project
 First, let's start off with creating a Node.JS project/directory. You can run the following two commands on the the terminal. Alternatively, you can create a folder from your file manager and open it in VS Code or any other code editor of your choice. 
+
+<div class="code-metadata">
+sh
+</div>
+
 ```sh
 mkdir node-express-tutorial
 cd node-express-tutorial
@@ -20,6 +25,11 @@ code . # for Visual Studio Code users
 
 ## Configuring the folder to use npm
 Run the following in the terminal.
+
+<div class="code-metadata">
+sh
+</div>
+
 ```sh
 npm init
 ```
@@ -34,6 +44,11 @@ So, start with creating a file named `index.js`. You can name it anything, just 
 
 ## Installing express
 Like most NodeJS packages, you can install express using npm. Run:
+
+<div class="code-metadata">
+sh
+</div>
+
 ```sh
 npm install express
 ```
@@ -46,16 +61,31 @@ This will add express as a **dependency** in your `package.json` and also instal
 
 ## Using express
 In your `index.js` file, write the following:
+
+<div class="code-metadata">
+index.js
+</div>
+
 ```js
 const express = require("express")
 ```
 If you've used Node.JS before, this should look familiar. This line basically imports the express package.
 Now, to use express, you need to instantiate the imported function. So:
+
+<div class="code-metadata">
+index.js
+</div>
+
 ```diff
 const express = require("express")
 + const app = express()
 ```
 Now, you can use the app variable to start the server like so:
+
+<div class="code-metadata">
+index.js
+</div>
+
 ```js
 app.listen(3000, () => {
     console.log(`🚀 Server started on port 3000`)
@@ -63,6 +93,11 @@ app.listen(3000, () => {
 ```
 
 You've basically already created a web server. You can run the app by running
+
+<div class="code-metadata">
+sh
+</div>
+
 ```sh
 node index.js
 ```
@@ -77,6 +112,11 @@ So now, we've started an express server but it doesn't know what it has to do wh
 ![Screenshot 2022-03-03 at 09.54.40.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1646281487165/8i6yAXewV.png)
 
 For this, add the following line of code before calling the `app.listen` function:
+
+<div class="code-metadata">
+index.js
+</div>
+
 ```js
 app.get('/', (req, res) => {
     return res.send("Hello, World")
@@ -97,6 +137,11 @@ Now, refresh the page on the browser and you should see this:
 
 ![Screenshot 2022-03-03 at 10.08.38.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1646282325271/94UDlGOUg.png)
 
+
+<div class="code-metadata">
+index.js
+</div>
+
 For the final step, you can refactor the port number like this
 ```diff
 + const port = process.env.PORT || 3000;
@@ -111,6 +156,11 @@ For the final step, you can refactor the port number like this
 
 ## Final Code
 Your final code in `index.js` should look like this:
+
+<div class="code-metadata">
+index.js
+</div>
+
 ```js
 const express = require("express");
 const app = express();
