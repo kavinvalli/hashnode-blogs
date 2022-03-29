@@ -22,6 +22,7 @@ Examples:
 
 ## Assign someone to a task
 > This command was added to the bot on 29 March 2022.
+
 As mentioned above, you can of course assign a user to a task when creating the task. You can also assign a user to a task with the following command
 
 ```
