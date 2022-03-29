@@ -20,6 +20,16 @@ Examples:
 
 ![Screenshot 2021-07-23 at 8.08.41 PM.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1627051126916/0todhdzFv.png)
 
+## Assign someone to a task
+> This command was added to the bot on 29 March 2022.
+As mentioned above, you can of course assign a user to a task when creating the task. You can also assign a user to a task with the following command
+
+```
+t!assign <id of task> @mentionuser
+```
+
+![Assign User](https://cdn.hashnode.com/res/hashnode/image/upload/v1648554828662/2PgCDVRU0.png)
+
 ## List all tasks
 You can list all of the **remaining** tasks by typing `t!list`
 
