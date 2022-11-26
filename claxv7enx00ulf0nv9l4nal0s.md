@@ -26,7 +26,7 @@ for me.
 
 tRPC is one of the best ways, in my opinion to create a fully typesafe API. API Routes allow us to build fullstack routes easier and faster. There are alternatives like GraphQL CodeGen but they essentially are a build step which generate types based on your GraphQL, which is kind of eh. tRPC just allows you to build it without an intermediate step. The following screenshot from the tRPC website just explains why tRPC.
 
-![Why tRPC](<https://cdn.hashnode.com/res/hashnode/image/upload/v1669448172146/O1W\_t\_pQS.png> align="left")
+![Why tRPC](https://cdn.hashnode.com/res/hashnode/image/upload/v1669463382785/w8FtiYvRr.png?auto=compress)
 
 You can read more about tRPC at [trpc.io](https://trpc.io).
 
