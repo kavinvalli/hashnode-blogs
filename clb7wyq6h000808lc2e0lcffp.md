@@ -26,4 +26,4 @@ To deploy the app on an EC2, GCP Instance, etc. use [pm2](https://pm2.keymetrics
 
 Check out the GitHub Repository linked above and you will find all the instructions on how to get up and running with the bot.
 
-Feel free to also point out any [issues](https://github.com/kavinvalli/aoc-private-lb-discord-bot/issues) and make any [PRs](https://github.com/kavinvalli/aoc-private-lb-discord-bot/pulls) are welcome!
+Feel free to also point out any [issues](https://github.com/kavinvalli/aoc-private-lb-discord-bot/issues), any [PRs](https://github.com/kavinvalli/aoc-private-lb-discord-bot/pulls) are welcome and be sure to star the repo!
