@@ -1,6 +1,6 @@
 # Dev Retro 2022, A Flashback to my life as a developer this past year
 
-For those who don't know me, I am Kavin, and I am a high schooler from Delhi, India. I have been programming for the past 2-3 years and have been in love with Web Development ever since. The past year has been a great one for me as a developer, and here's that in a nutshell.
+For those who don't know me, I am Kavin, and I am a high schooler from Delhi, India. I have been programming for the past 2-3 years and have been in love with Web Development ever since. The past year has been a great one for me as a developer, and here's that in a nutshell. View more about me, [here](https://kavin.me).
 
 ## January 2022
 
