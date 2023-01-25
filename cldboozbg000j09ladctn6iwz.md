@@ -4,6 +4,32 @@
 
 Well, the people who've read my previous articles know how much I love type-safety, hence someone who loves the [t3 stack](https://livecode247.com/why-t3-stack). Here's [Typewind](https://typewind.vercel.app), a **typesafe** and **zero-runtime** version of Tailwind CSS, a utility-first CSS framework that can be composed to build any design, directly in your markup.
 
+## What does Typewind do?
+
+Typewind is built upon Tailwind CSS, and it provides a typesafe environment over it. The moment you run `npx typewind generate`, it generates types for you and thus enables you to work with autocomplete, prevent typos and much more. Here's an example of how Typewind works:
+
+[https://twitter.com/Mokshit06/status/1617880004846825474](https://twitter.com/Mokshit06/status/1617880004846825474)
+
+```typescript
+import { tw } from "typewind";
+
+export default function Button() {
+    return (
+        <button className={tw.}></button>
+    )
+}
+```
+
+The moment you type `tw.`, you will get autocomplete like so, based on your own custom `tailwind.config.js`
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674663236218/5f9613b6-e151-40f3-868d-6566be5fc2ff.png align="center")
+
+And, the moment you make a typo:
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674663315897/cfd990fa-e131-4f1e-bf09-eb2935256800.png align="center")
+
+And it has absolutely zero overhead runtime! Will talk a little more about the features below, but before that, let me talk about how this started!
+
 ## Origin
 
 The whole thing started with one tweet.
