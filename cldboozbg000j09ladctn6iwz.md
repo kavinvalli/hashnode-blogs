@@ -161,6 +161,14 @@ export default function App() {
 }
 ```
 
+## Why Typewind over Tailwind Intellisense?
+
+This has been answered by Mokshit in this tweet:
+
+[https://twitter.com/Mokshit06/status/1617506874773082112?s=20&t=erkUIb\_bUjty0KfXzGlrDw](https://twitter.com/Mokshit06/status/1617506874773082112?s=20&t=erkUIb_bUjty0KfXzGlrDw)
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674663639622/c6b3ec29-49d6-444e-8150-c40706500d22.png align="center")
+
 ## Outro
 
 Hope this gets you interested in getting started with Typewind, and gets you to use it in your next project!
