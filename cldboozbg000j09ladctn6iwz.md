@@ -78,7 +78,7 @@ After setting up [Tailwind](https://tailwindcss.com/docs/installation), make the
 
 ```json
 {
-  "presets": [],
+  "presets": ["next/babel"],
   "plugins": ["typewind/babel"]
 }
 ```
