@@ -144,7 +144,7 @@ And, you'll be done setting up Typewind in your Vite application.
 
 ## Usage
 
-There are a few usage cases, just like in Tailwind and all of them can be found in detail in the documentation, and it would be redundant to write them again in this article. But here's just a trailer to show you what it's capable of:
+Here's just a trailer to show you what it's capable of:
 
 ```typescript
 import { tw } from 'typewind';
@@ -157,6 +157,61 @@ export default function App() {
         Hello World
       </h1>
     </div>
+  );
+}
+```
+
+### Applying Normal Tailwind Classes
+
+All the utility tailwind classes are available in the `tw` proxy, and can be chained one after another. They can be found in the [Tailwind Docs](https://tailwindcss.com/docs/utility-first). The `-` in the tailwind classes are replaced with `_` (for eg. `bg-red-500` can be accessed as `tw.bg_red_500`)
+
+```typescript
+import { tw } from 'typewind';
+ 
+export default function Button() {
+  return (
+    <button className={tw.bg_blue_500.text_white.rounded.py_3.px_4}>
+      Click Me
+    </button>
+  );
+}
+```
+
+### Applying Tailwind Modifiers
+
+[Pseudo-classes](https://tailwindcss.com/docs/hover-focus-and-other-states#pseudo-classes) like `:hover` and `:focus`, [Pseudo-elements](https://tailwindcss.com/docs/hover-focus-and-other-states#pseudo-elements) like `::before`, `::after`, `::placeholder` and `::selection`, [Media and feature queries](https://tailwindcss.com/docs/hover-focus-and-other-states#media-and-feature-queries) and [Attribute Selectors](https://tailwindcss.com/docs/hover-focus-and-other-states#attribute-selectors) are available as a function (for eg. `:hover` can be accessed as `tw.hover(tw.some_class)` )
+
+Typewind also have a `dark` function which is used to apply styles when the user is in dark mode.
+
+```typescript
+import { tw } from 'typewind';
+ 
+export default function Button() {
+  return (
+    <button
+      className={tw.bg_blue_500
+        .hover(tw.bg_blue_600)
+        .text_white.rounded.py_3.px_4.md(tw.py_4.px_5)
+        .dark(tw.bg_sky_900.hover(tw.bg_sky_800))}
+    >
+      Click Me
+    </button>
+  );
+}
+```
+
+> Note that Typewind does not have `tw.2xl()` but has `tw._2xl()` because object keys cannot start with a number 🫠
+
+### Applying Tailwind Arbitrary Values
+
+Tailwind JIT Mode introduced the feature of arbitrary values. You could now apply classes like `bg-[#2977f5]` and specify arbitrary values for classes by yourself. This can be done with Typewind as well!
+
+```typescript
+import { tw } from 'typewind';
+ 
+export default function App() {
+  return (
+    <button className={tw.text_['20px'].py_3.px_4.bg_blue_500}>Click Me</button>
   );
 }
 ```
