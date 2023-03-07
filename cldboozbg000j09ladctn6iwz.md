@@ -1,4 +1,13 @@
-# Typewind: The magic of Tailwind combined with the safety of Typescript
+---
+title: "Typewind: The magic of Tailwind combined with the safety of Typescript"
+seoDescription: "Typewind: Tailwind CSS with type-safety and zero-runtime overhead. Autocomplete, prevent typos, and catch errors at compile time"
+datePublished: Wed Jan 25 2023 13:10:20 GMT+0000 (Coordinated Universal Time)
+cuid: cldboozbg000j09ladctn6iwz
+slug: typewind-the-magic-of-tailwind-combined-with-the-safety-of-typescript
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1674651899791/52be5396-3b97-4ebb-99db-17c4be2eefb2.png
+tags: web-development, typescript, frontend-development, tailwind-css
+
+---
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1674651855860/13a5eb54-63b2-4dc8-b78d-617c8a3b0adf.png align="center")
 
@@ -6,7 +15,7 @@ Well, the people who've read my previous articles know how much I love type-safe
 
 ## What does Typewind do?
 
-Typewind is built upon Tailwind CSS, and it provides a typesafe environment over it. The moment you run `npx typewind generate`, it generates types for you and thus enables you to work with autocomplete, prevent typos and much more. Here's an example of how Typewind works:
+Typewind is a powerful utility-first CSS framework that combines the magic of Tailwind with the safety of Typescript. It provides a typesafe environment over Tailwind CSS, enabling developers to work with autocomplete, prevent typos, and catch errors at compile time. With zero runtime overhead, Typewind generates custom type definitions based on your app's `tailwind.config.js` file, making it a top choice for developers who value type-safety. Here's an example of how Typewind works:
 
 [https://twitter.com/Mokshit06/status/1617880004846825474](https://twitter.com/Mokshit06/status/1617880004846825474)
 
