@@ -40,13 +40,13 @@ Now, this is one of the most important plugins on the list. Neovim v5 brought in
 
 If that's not a problem for you, then nvim-lspconfig is a very good plugin. You can combine it with the following plugins to make it even better
 
-### [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+## [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 
 `nvim-cmp` is a completion engine for neovim written in lua.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679202567234/5dc570bf-b33b-4b7f-ab01-313f5a09e774.png align="center")
 
-### [null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim)
+## [null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim)
 
 > Unlike the VS Code and coc.nvim ecosystems, Neovim doesn't provide a way for non-LSP sources to hook into its LSP client. null-ls is an attempt to bridge that gap and simplify the process of creating, sharing, and setting up LSP sources using pure Lua.
 
@@ -54,7 +54,7 @@ With Neovim LSP, it gets a little harder to setup things like Prettier and ESLin
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679203211421/9f64f2ba-a438-4b92-990f-e4c992012850.png align="center")
 
-### [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
+## [LuaSnip](https://github.com/L3MON4D3/LuaSnip)
 
 `luasnip` is a vscode like snippet feature. It works hand in hand with nvim-cmp and you can customize your snippets.
 
@@ -64,13 +64,13 @@ With Neovim LSP, it gets a little harder to setup things like Prettier and ESLin
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1679202245088/0b8a26b0-f8ea-434f-ae49-9d83c5973187.png align="center")
 
-### [Bufferline](https://github.com/akinsho/bufferline.nvim)
+## [Bufferline](https://github.com/akinsho/bufferline.nvim)
 
 One of the many bufferline solutions for neovim out there. It's completely written in Rust and if you want to emulate a Doom emacs style bufferline, this is your way to go. It has multiple features like Tab Pages, LSP Indicators, Pinning, GUI for closing and reordering, and so much more!
 
 ![](https://user-images.githubusercontent.com/22454918/111992693-9c6a9b00-8b0d-11eb-8c39-19db58583061.gif align="center")
 
-### [Lualine](https://github.com/nvim-lualine/lualine.nvim)
+## [Lualine](https://github.com/nvim-lualine/lualine.nvim)
 
 A blazing fast and easy to configure neovim statusline plugin written in pure lua.
 
@@ -79,3 +79,9 @@ A blazing fast and easy to configure neovim statusline plugin written in pure lu
 There are a lot of themes you can choose from and customise the look of your statusline and you can reorder items, add plugins and a lot more.
 
 In conclusion, Neovim is a highly customizable text editor that can be enhanced with plugins to improve your coding experience. The plugins listed in this article are just a few examples of the many options available. By adding these essential plugins to your Neovim setup, you can streamline your workflow, increase productivity, and take your coding game to the next level. So why not give them a try and see how they can transform your Neovim experience?
+
+## Additional Resources
+
+* [Neovim Reddit](https://www.reddit.com/r/neovim)
+    
+* [Awesome Neovim](https://github.com/rockerBOO/awesome-neovim)
